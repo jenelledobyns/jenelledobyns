@@ -41,9 +41,9 @@ body {
 }
 
 .hero {
-	height: 120vh;
+	height: 115vh;
 	width: 100%;
-    background: url('images/herobg.svg') no-repeat center center;
+    background: url('images/herobg2.svg') no-repeat center center;
     background-size: cover;
 }
 
@@ -57,7 +57,7 @@ body {
 		background: #fff;
 		box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.1);
 		&.tech {
-			margin-top: -30vh;
+			margin-top: -15vh;
 			display: inline-grid;
 			grid-template-columns: auto auto auto;
 			justify-content: space-evenly;
