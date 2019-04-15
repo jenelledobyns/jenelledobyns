@@ -36,7 +36,8 @@ body {
 .hero {
   height: 120vh;
   width: 100%;
-  background: linear-gradient(to bottom right, #A1CFAD, #4EA99D); }
+  background: url("images/herobg.svg") no-repeat center center;
+  background-size: cover; }
 
 .content {
   margin: 0 auto;
@@ -48,7 +49,7 @@ body {
     background: #fff;
     box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.1); }
     .content .block.tech {
-      margin-top: -20vh;
+      margin-top: -30vh;
       display: inline-grid;
       grid-template-columns: auto auto auto;
       justify-content: space-evenly;
@@ -146,7 +147,8 @@ body {
   align-items: center;
   width: 100%;
   min-height: 60vh;
-  background: linear-gradient(to top right, blue, pink); }
+  background: url("images/footerbg.svg") no-repeat top center;
+  background-size: cover; }
   .footer h1 {
     color: #fff;
     font-size: 30px; }
