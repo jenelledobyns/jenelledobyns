@@ -84,11 +84,13 @@ body {
       .content .block.work:hover {
         transform: scale(1.01); }
       .content .block.work .image {
-        background: url("https://via.placeholder.com/300x300/") no-repeat center center;
+        background: url("images/noblevita.jpg") no-repeat center center;
         background-size: cover;
         border-radius: 10px 10px 0 0;
         min-height: 200px;
         grid-area: image; }
+        .content .block.work .image .noblevita {
+          background: url("images/noblevita.jpg") no-repeat center center; }
       .content .block.work .description {
         font-family: Avenir;
         padding: 0px 30px 30px 30px;
@@ -127,19 +129,20 @@ body {
       max-height: 280px;
       border-radius: 50%;
       flex: 1; }
-  .invisi .buttons {
-    display: flex;
-    grid-area: icons;
-    text-align: center;
-    justify-content: space-evenly;
-    padding: 20px; }
-    .invisi .buttons i {
-      font-size: 50px;
-      color: #ccc;
-      transition: all .2s; }
-      .invisi .buttons i:hover {
-        transform: scale(1.04);
-        color: #bbb; }
+
+.buttons {
+  display: flex;
+  grid-area: icons;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 20px; }
+  .buttons i {
+    font-size: 50px;
+    color: #ccc;
+    transition: all .2s; }
+    .buttons i:hover {
+      transform: scale(1.04);
+      color: #bbb; }
 
 .footer {
   display: flex;

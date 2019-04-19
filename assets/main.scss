@@ -100,11 +100,17 @@ body {
 				transform: scale(1.01);
 			}
 			.image{
-				background: url("https://via.placeholder.com/300x300/") no-repeat center center;
+
+
+				background: url("images/noblevita.jpg") no-repeat center center;
 				background-size: cover;
 				border-radius: 10px 10px 0 0;
         min-height: 200px;
-        grid-area: image;
+				grid-area: image;
+				
+				.noblevita {
+					background: url("images/noblevita.jpg") no-repeat center center;
+				}
 			}
 			.description {
 				font-family: Avenir;
@@ -161,7 +167,11 @@ body {
 			  max-width: 280px;
 			  max-height: 280px;
 			  border-radius: 50%;
-        flex: 1;
+				flex: 1;
+				
+				}
+
+
       }
     }
    .buttons {
@@ -183,7 +193,7 @@ body {
             }
 		
 	}
-}
+
 
 .footer {
 	display: flex;
