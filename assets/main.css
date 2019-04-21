@@ -84,13 +84,18 @@ body {
       .content .block.work:hover {
         transform: scale(1.01); }
       .content .block.work .image {
-        background: url("images/noblevita.jpg") no-repeat center center;
-        background-size: cover;
         border-radius: 10px 10px 0 0;
         min-height: 200px;
         grid-area: image; }
-        .content .block.work .image .noblevita {
-          background: url("images/noblevita.jpg") no-repeat center center; }
+        .content .block.work .image.noblevita {
+          background: url("images/noblevita.jpg") no-repeat center center;
+          background-size: cover; }
+        .content .block.work .image.wayfaringworker {
+          background: url("images/wayfaringworker.jpg") no-repeat center center;
+          background-size: cover; }
+        .content .block.work .image.colorpicker {
+          background: url("images/wayfaringworker.jpg") no-repeat center center;
+          background-size: cover; }
       .content .block.work .description {
         font-family: Avenir;
         padding: 0px 30px 30px 30px;

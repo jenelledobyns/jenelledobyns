@@ -56,6 +56,8 @@ body {
 		min-height: 200px;
 		background: #fff;
 		box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.1);
+
+		// Top Block
 		&.tech {
 			margin-top: -15vh;
 			display: inline-grid;
@@ -86,6 +88,8 @@ body {
 				border-radius: 50%;
 			}
 		}
+
+		// Projects 
 		&.work {
 			display: grid;
 			box-sizing: border-box;
@@ -99,19 +103,43 @@ body {
 			&:hover {
 				transform: scale(1.01);
 			}
-			.image{
+
+			
 
 
-				background: url("images/noblevita.jpg") no-repeat center center;
-				background-size: cover;
+			.image {
 				border-radius: 10px 10px 0 0;
         min-height: 200px;
 				grid-area: image;
-				
-				.noblevita {
-					background: url("images/noblevita.jpg") no-repeat center center;
-				}
+			// Noble Vita thumbnail
+
+			&.noblevita {
+				background: url("images/noblevita.jpg") no-repeat center center;
+				background-size: cover;
+
 			}
+			// Wayfaring Worker thumbnail
+			&.wayfaringworker {
+				background: url("images/wayfaringworker.jpg") no-repeat center center;
+				background-size: cover;
+
+			}
+
+			// Color Picker thumbnail
+			&.colorpicker {
+				background: url("images/wayfaringworker.jpg") no-repeat center center;
+				background-size: cover;
+
+			}			
+
+			}
+
+
+			// Color Picker Thumbnail
+
+
+			// Project Descriptions
+
 			.description {
 				font-family: Avenir;
 				padding: 0px 30px 30px 30px;
@@ -132,7 +160,7 @@ body {
 		}
 	}
 }
-
+// About Me Section
 .invisi {
 	display: grid;
 	grid-template-columns: 100%;
