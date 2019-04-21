@@ -16,14 +16,14 @@
 	<g>
 		<g>
 			<defs>
-				<polyline id="SVGID_1_" points="2026.54,1095.57 1892.89,-323.5 1903.49,-211 -360.22,10.36 -269.97,968.51 -385.93,962.76 
-					2319.58,1086.45 				"/>
+				<polyline id="SVGID_1_" points="2033.81,1095.38 1899.63,-332.89 1910.27,-219.66 -360.26,2.93 -269.65,967.29 -385.96,961.5 
+					2327.74,1086.23 				"/>
 			</defs>
 			<clipPath id="SVGID_2_">
 				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 			</clipPath>
 			
-				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="2245.9797" y1="1105.377" x2="-1050.4333" y2="-480.9301" gradientTransform="matrix(1.0247 -0.1002 -0.099 -1.0515 9.4494 1177.6486)">
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="2245.9797" y1="1105.377" x2="-1050.4333" y2="-480.9301" gradientTransform="matrix(1.0278 -0.1007 -0.0994 -1.0583 10.6307 1177.8115)">
 				<stop  offset="0" style="stop-color:#A1CFAD"/>
 				<stop  offset="0.1391" style="stop-color:#8BC5A9"/>
 				<stop  offset="0.3445" style="stop-color:#70B9A4"/>
@@ -31,63 +31,63 @@
 				<stop  offset="0.7702" style="stop-color:#52AB9E"/>
 				<stop  offset="1" style="stop-color:#4EA99D"/>
 			</linearGradient>
-			<polyline class="st0" points="2026.54,1095.57 1892.89,-323.5 1903.49,-211 -360.22,10.36 -269.97,968.51 -385.93,962.76 
-				2319.58,1086.45 			"/>
+			<polyline class="st0" points="2033.81,1095.38 1899.63,-332.89 1910.27,-219.66 -360.26,2.93 -269.65,967.29 -385.96,961.5 
+				2327.74,1086.23 			"/>
 		</g>
 		<g>
 			<defs>
-				<polyline id="SVGID_4_" points="2026.54,1095.57 1892.89,-323.5 1903.49,-211 -360.22,10.36 -269.97,968.51 -385.93,962.76 
-					2319.58,1086.45 				"/>
+				<polyline id="SVGID_4_" points="2033.81,1095.38 1899.63,-332.89 1910.27,-219.66 -360.26,2.93 -269.65,967.29 -385.96,961.5 
+					2327.74,1086.23 				"/>
 			</defs>
 			<clipPath id="SVGID_5_">
 				<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
 			</clipPath>
 			
-				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="1282.9589" y1="444.6785" x2="2028.2839" y2="444.6785" gradientTransform="matrix(1.1903 -0.2271 -0.1563 -1.1835 -366.5522 1505.7517)">
+				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="1282.9589" y1="444.6785" x2="2028.2839" y2="444.6785" gradientTransform="matrix(1.1939 -0.2285 -0.1568 -1.1912 -366.4778 1508.0063)">
 				<stop  offset="0" style="stop-color:#81C49E;stop-opacity:0.4"/>
 				<stop  offset="0.1049" style="stop-color:#7DC0A0;stop-opacity:0.463"/>
 				<stop  offset="0.538" style="stop-color:#72B5A4;stop-opacity:0.7228"/>
 				<stop  offset="1" style="stop-color:#6EB1A6"/>
 			</linearGradient>
-			<polygon class="st1" points="994.75,-41.46 1901.14,1282.08 2074.65,1248.98 1881.8,-211.38 			"/>
+			<polygon class="st1" points="998.8,-49.11 1908.05,1283.09 2082.08,1249.79 1888.51,-220.04 			"/>
 		</g>
 		<g>
 			<defs>
-				<polyline id="SVGID_7_" points="2026.54,1095.57 1892.89,-323.5 1903.49,-211 -360.22,10.36 -269.97,968.51 -385.93,962.76 
-					2319.58,1086.45 				"/>
+				<polyline id="SVGID_7_" points="2033.81,1095.38 1899.63,-332.89 1910.27,-219.66 -360.26,2.93 -269.65,967.29 -385.96,961.5 
+					2327.74,1086.23 				"/>
 			</defs>
 			<clipPath id="SVGID_8_">
 				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
 			</clipPath>
 			
-				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="1099.7493" y1="449.3353" x2="2145.5132" y2="449.3353" gradientTransform="matrix(1.0964 -0.2062 -0.1899 -1.0554 -26.9148 1384.7119)">
+				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="1099.7493" y1="449.3353" x2="2145.5132" y2="449.3353" gradientTransform="matrix(1.0997 -0.2074 -0.1906 -1.0623 -25.8249 1386.2129)">
 				<stop  offset="0" style="stop-color:#89B9AB;stop-opacity:0.8"/>
 				<stop  offset="0.2304" style="stop-color:#70B2A5;stop-opacity:0.8"/>
 				<stop  offset="0.4764" style="stop-color:#5DADA1;stop-opacity:0.8"/>
 				<stop  offset="0.7299" style="stop-color:#52AA9E;stop-opacity:0.8"/>
 				<stop  offset="1" style="stop-color:#4EA99D;stop-opacity:0.8"/>
 			</linearGradient>
-			<polygon class="st2" points="2140.83,-83.8 1250.19,1155.73 1192.84,1235.56 2096.35,1065.61 1938.21,186.71 			"/>
+			<polygon class="st2" points="2148.33,-91.62 1255.12,1155.86 1197.6,1236.2 2103.83,1065.24 1945.13,180.63 			"/>
 		</g>
 		<g>
 			<defs>
-				<polyline id="SVGID_10_" points="2026.54,1095.57 1892.89,-323.5 1903.49,-211 -360.22,10.36 -269.97,968.51 -385.93,962.76 
-					2319.58,1086.45 				"/>
+				<polyline id="SVGID_10_" points="2033.81,1095.38 1899.63,-332.89 1910.27,-219.66 -360.26,2.93 -269.65,967.29 -385.96,961.5 
+					2327.74,1086.23 				"/>
 			</defs>
 			<clipPath id="SVGID_11_">
 				<use xlink:href="#SVGID_10_"  style="overflow:visible;"/>
 			</clipPath>
 			
-				<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="1015.2935" y1="110.9615" x2="1015.2935" y2="1164.6356" gradientTransform="matrix(1.0651 -0.0957 -0.0853 -1.234 -13.3549 1213.9862)">
+				<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="1015.2935" y1="110.9615" x2="1015.2935" y2="1164.6356" gradientTransform="matrix(1.0683 -0.0962 -0.0857 -1.242 -12.2392 1214.3826)">
 				<stop  offset="0" style="stop-color:#81C49E;stop-opacity:0.4"/>
 				<stop  offset="0.3065" style="stop-color:#73B39E;stop-opacity:0.4"/>
 				<stop  offset="0.6495" style="stop-color:#69A79E;stop-opacity:0.4"/>
 				<stop  offset="1" style="stop-color:#66A39E;stop-opacity:0.4"/>
 			</linearGradient>
-			<path class="st3" d="M2261.7,845.49c-133.76-0.18-267.52-0.37-401.3-0.55c-295.66-0.4-591.33-0.81-886.99-1.2
-				c-299.12-0.4-598.24-0.81-897.36-1.22c-56.75-0.07-113.51-0.16-170.26-0.23c-31.71-0.05-114.01,17.45-141.29-1.14
-				c-27.75-18.89-20.68-118.78-23.15-154.38c-5.46-79.01-10.93-158.01-16.39-237.02c-15.08-218.07-30.16-436.15-45.23-654.23
-				l2431.5-218.44l89.89,1300.12l149.24-25.15"/>
+			<path class="st3" d="M2269.66,843.7c-134.17-0.2-268.33-0.39-402.51-0.59c-296.55-0.43-593.12-0.86-889.67-1.29
+				c-300.02-0.43-600.05-0.87-900.07-1.31c-56.92-0.08-113.85-0.17-170.77-0.25c-31.8-0.05-114.35,17.55-141.72-1.16
+				c-27.83-19.02-20.76-119.55-23.23-155.38c-5.49-79.52-10.98-159.04-16.46-238.55C-289.92,225.69-305.07,6.2-320.21-213.3
+				l2438.82-219.64l90.28,1308.55l149.69-25.3"/>
 		</g>
 	</g>
 </g>

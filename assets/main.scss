@@ -43,7 +43,7 @@ body {
 .hero {
 	height: 115vh;
 	width: 100%;
-    background: url('images/herobg2.svg') no-repeat center right;
+    background: url('images/herobg.svg') no-repeat center right;
     background-size: cover;
 }
 
@@ -142,7 +142,7 @@ body {
 
 			.description {
 				font-family: Avenir;
-				padding: 0px 30px 30px 30px;
+				padding: 20px 30px 50px 30px;
         justify-self: stretch;
         grid-area: description;
 				h1 {
