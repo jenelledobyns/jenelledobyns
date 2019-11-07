@@ -7,7 +7,7 @@ body {
   body h2 {
     font-family: 'Raleway', sans-serif;
     line-height: 18pt;
-    color: #383838;
+    color: hsl(0, 0%, 22%);
     font-weight: 300; }
   body p {
     font-family: 'Raleway', sans-serif;
@@ -33,11 +33,115 @@ body {
   padding: 0;
   width: 100%; }
 
-.hero {
-  height: 115vh;
-  width: 100%;
-  background: url("images/herobg.svg") no-repeat center right;
-  background-size: cover; }
+  .hero {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+   
+  }
+  .line {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 70vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 40s ease-in-out infinite;
+  }
+  
+  .mid {
+    position: absolute;
+    z-index: 99;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  /*   border: 3px solid #fff; */
+    padding: 10px 50px;
+    text-align: center;
+    
+  }
+  .mid h2 {
+    color: white;
+    font-family: proxima nova;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+  }
+  
+  .line-1 {
+    z-index: 15;
+    opacity: 0.5;
+    
+  }
+  .line-2 {
+    z-index: 10;
+    opacity: 0.7;
+    height: 68vh;
+    
+  }
+  .line-3 {
+    z-index: 5;
+      height: 58vh;
+  
+    
+  }
+  
+  .wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+  }
+  
+  .wave1 {
+    -webkit-background-size: 50% 80px;
+    background-size: 50% 80px;
+      animation: animate 30s linear infinite;
+  
+  }
+  .wave2 {
+    -webkit-background-size: 50% 100px;
+    background-size: 50% 80px;
+    animation: animate 50s linear infinite;
+  }
+  .wave3 {
+    -webkit-background-size: 50% 80px;
+    background-size: 50% 80px;
+     animation: animate 48s linear infinite;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%; 
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateX(0) translateZ(0) scaleY(1);
+    }
+      50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.5);
+    }
+      100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+  }
+
+
 
 .content {
   margin: 0 auto;
