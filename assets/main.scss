@@ -56,6 +56,10 @@ body button:hover {
   padding: 0;
   width: 100%; }
 
+  .icons {
+	display: none;
+  }
+
 .icons {
   position: fixed;
   right: 0;
@@ -402,6 +406,10 @@ body button:hover {
   cursor: pointer; }
 
 @media only screen and (min-width: 700px) {
+
+	.icons {
+		display: block;
+	}
   .menu li {
     display: inline-block; }
 
