@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var styles = ["a", "c", "b", "d"];
+  var styles = ["b", "c", "a", "d"];
   var index = 0;
   $("body")
     .find("button")
