@@ -352,15 +352,15 @@ body {
 	grid-area: image;
   }
   .content .block.work .image.csuwaterexperts {
-	background: url("assets/images/csuwaterexperts.jpg") no-repeat center center;
+	background: url("images/csuwaterexperts.jpg") no-repeat center center;
 	background-size: cover;
   }
   .content .block.work .image.noblevita {
-	background: url("assets/images/noblevita.jpg") no-repeat center center;
+	background: url("images/noblevita.jpg") no-repeat center center;
 	background-size: cover;
   }
   .content .block.work .image.wayfaringworker {
-	background: url("assets/images/wayfaringworker.jpg") no-repeat center center;
+	background: url("images/wayfaringworker.jpg") no-repeat center center;
 	background-size: cover;
   }
 
@@ -479,7 +479,7 @@ body {
 	font-size: 50px;
 	color: #ccc;
 	transition: all 0.2s;
-	
+
   }
   .buttons i:hover {
 	transform: scale(1.04);
