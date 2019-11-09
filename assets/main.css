@@ -296,11 +296,11 @@ body button:hover {
   background-size: cover; }
 
 .content .block.work .image.noblevita {
-  background: url("images/noblevita.png") no-repeat center center;
+  background: url("images/NobleVita.png") no-repeat center center;
   background-size: cover; }
 
 .content .block.work .image.wayfaringworker {
-  background: url("images/wayfaringworker.png") no-repeat center center;
+  background: url("images/WayfaringWorker.png") no-repeat center center;
   background-size: cover; }
 
 .content .block.work .description {
@@ -319,6 +319,9 @@ body button:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #888; }
+
+.content .block.work button {
+  padding: 10px 0; }
 
 .invisi {
   display: grid;
