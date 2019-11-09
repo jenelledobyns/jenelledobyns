@@ -1,3 +1,6 @@
+@import url(//db.onlinewebfonts.com/c/8cc060bb2e9501bb279b5ea52da8ff83?family=KG+Always+A+Good+Time);
+@font-face {font-family: "KG Always A Good Time"; src: url("//db.onlinewebfonts.com/t/8cc060bb2e9501bb279b5ea52da8ff83.eot"); src: url("//db.onlinewebfonts.com/t/8cc060bb2e9501bb279b5ea52da8ff83.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8cc060bb2e9501bb279b5ea52da8ff83.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8cc060bb2e9501bb279b5ea52da8ff83.woff") format("woff"), url("//db.onlinewebfonts.com/t/8cc060bb2e9501bb279b5ea52da8ff83.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8cc060bb2e9501bb279b5ea52da8ff83.svg#KG Always A Good Time") format("svg"); }
+
 body {
 	margin: 0;
 	background: #f7f7f7;
@@ -134,7 +137,7 @@ body {
   .logo {
 	position: absolute;
 	left: 20px;
-	font-family: kg always a good time;
+	font-family: "KG Always A Good Time", "Pacifico", cursive;
 	font-size: 25pt;
 	transition: all 0.2s;
   
@@ -227,7 +230,7 @@ body {
   }
   .mid h2 {
 	color: white;
-	font-family: 'kg always a good time', kg always a good time;
+	font-family: "KG Always A Good Time", "Pacifico", cursive;
 	font-size: 40pt;
 	letter-spacing: 2px;
 	line-height: 30pt;
