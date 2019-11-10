@@ -263,7 +263,7 @@ body button:hover {
 
 .content .block {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 50px;
   min-height: 200px;
   background: #fff;
   box-shadow: 5px 0px 20px rgba(119, 90, 130, 0.1);
@@ -282,7 +282,7 @@ body button:hover {
   transform: scale(1.01); }
 
 .content .block.work .image {
-  border-radius: 10px 10px 0 0;
+  border-radius: 50px 50px 0 0;
   min-height: 200px;
   grid-area: image; }
 
@@ -463,10 +463,10 @@ body button:hover {
     text-align: right; }
 
   .block.work:nth-child(even) .image {
-    border-radius: 0 10px 10px 0 !important; }
+    border-radius: 0 50px 50px 0 !important; }
 
   .block.work .image {
-    border-radius: 10px 0 0 10px !important; } }
+    border-radius: 50px 0 0 50px !important; } }
 @media only screen and (min-width: 1000px) {
   .mid {
     top: 40%;
