@@ -1,12 +1,31 @@
 $(document).ready(function() {
   var styles = ["a", "b", "c", "d"];
-  var index = 0;
+  var index = 1;
   $("body")
     .find("button")
     .each(function() {
       $(this).addClass(styles[index++]);
       if (index >= styles.length) index = 0;
+
     });
+
+$(document).ready(function() {
+  var styles = ["a","b","c","d"];
+  var index = 1;
+  $(".work")
+  .find(".overlay")
+  .each(function() {
+    var gradient = $("." + styles[index++]).css("background-image"); 
+    $(this).css("background-image", gradient);   
+
+    // console.log(gradient + ", 0.4)" + url + " no-repeat center center");
+    // $(this).css("background", gradient + ", 0.4)" + url + " no-repeat center center");
+    
+    if (index >= styles.length) index = 0;
+
+  
+});
+})
 
   $(".tablink").click(function() {
     var tab_id = $(this).attr("data-tab");
