@@ -271,6 +271,13 @@ body button:hover {
   box-shadow: 5px 0px 20px rgba(119, 90, 130, 0.1);
   z-index: 99; }
 
+.portfolio {
+  .worktabs {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 .content .block.work {
   display: grid;
   box-sizing: border-box;
@@ -304,8 +311,8 @@ body button:hover {
   background: url("images/NobleVita.png") no-repeat center center;
   background-size: cover; }
 
-.content .block.work .image.wayfaringworker {
-  background: url("images/WayfaringWorker.png") no-repeat center center;
+.content .block.work .image.eshsgrocery {
+  background: url("images/eshs-grocery.png") no-repeat center center;
   background-size: cover; }
 
 .content .block.work .description {
@@ -347,7 +354,7 @@ body button:hover {
   font-size: 12pt; }
   .invisi button:hover {
     opacity: 100%;
-    background-size: 120% 120% !important;
+    background-size: 150% 150% !important;
     transform: scale(1.1); }
 
 .invisi .tab {
@@ -359,7 +366,8 @@ body button:hover {
   opacity: 100%;
   transform: scale(1.2);
   box-shadow: 5px 0px 20px rgba(119, 90, 130, 0.3);
-  background-size: 100% 100% !important; }
+  border: 5px solid #fff;
+  background-size: 160% 160% !important; }
 
 .invisi .about {
   grid-area: about;
