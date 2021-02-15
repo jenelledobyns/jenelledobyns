@@ -41,6 +41,13 @@ $(document).ready(function() {
   });
 
   $(".worktab").click(function() {
+
+    if ($(this).hasClass("current")) {
+      $(".worktab").removeClass("current");
+      $(".work:not(.casestudies)").addClass("current");
+    }
+
+    else {
     var proj_id = $(this).attr("data-tab");
 
     $(".worktab").removeClass("current");
@@ -50,6 +57,7 @@ $(document).ready(function() {
     $(this).addClass("current");
 
     $("." + proj_id).addClass("current");
+    }
   });
 
 });
