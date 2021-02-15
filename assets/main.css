@@ -337,6 +337,16 @@ body button:hover {
   display: flex;
   justify-content: space-around;
 }
+.portfolio .worktabs button {
+  cursor: pointer;
+}
+.portfolio .worktabs button.current {
+  opacity: 100%;
+  transform: scale(1.15);
+  box-shadow: 5px 0px 20px rgba(119, 90, 130, 0.3);
+  border: 2px solid #fff;
+  background-size: 160% 160% !important;
+}
 
 .content .block.work {
   display: grid;
@@ -375,8 +385,13 @@ body button:hover {
   background-size: cover;
 }
 
-.content .block.work .image.eshsgrocery {
+.content .block.work .image.eshs-grocery {
   background: url("images/eshs-grocery.png") no-repeat center center;
+  background-size: cover;
+}
+
+.content .block.work .image.athelo {
+  background: url("images/athelo.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -385,6 +400,9 @@ body button:hover {
   padding: 20px 30px 50px 30px;
   justify-self: stretch;
   grid-area: description;
+}
+.content .block.work .description button {
+  cursor: pointer;
 }
 
 .content .block.work .description h1 {
@@ -404,6 +422,19 @@ body button:hover {
   margin: 10px 0;
 }
 
+.work {
+  display: none !important;
+}
+.work.current {
+  display: grid !important;
+  transition: 0.2s all;
+  animation-name: fadeIn;
+  opacity: 1;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
 .invisi {
   display: grid;
   grid-template-columns: 100%;
@@ -420,8 +451,9 @@ body button:hover {
   height: 60px;
   width: 60px;
   opacity: 70%;
-  transition: 0.2s linear;
+  transition: 0.1s ease-in-out;
   font-size: 12pt;
+  cursor: pointer;
 }
 
 .invisi button:hover {
@@ -440,7 +472,8 @@ body button:hover {
   opacity: 100%;
   transform: scale(1.2);
   box-shadow: 5px 0px 20px rgba(119, 90, 130, 0.3);
-  border: 5px solid #fff;
+  border: 2px solid #fff;
+  padding: 17px;
   background-size: 160% 160% !important;
 }
 

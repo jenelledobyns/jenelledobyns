@@ -275,6 +275,18 @@ body button:hover {
   .worktabs {
     display: flex;
     justify-content: space-around;
+
+    button {
+      cursor: pointer;
+
+      &.current {
+      opacity: 100%;
+      transform: scale(1.15);
+      box-shadow: 5px 0px 20px rgba(119, 90, 130, 0.3);
+      border: 2px solid #fff;
+      background-size: 160% 160% !important;
+      }
+    }
   }
 }
 
@@ -311,15 +323,24 @@ body button:hover {
   background: url("images/NobleVita.png") no-repeat center center;
   background-size: cover; }
 
-.content .block.work .image.eshsgrocery {
+.content .block.work .image.eshs-grocery {
   background: url("images/eshs-grocery.png") no-repeat center center;
   background-size: cover; }
+
+  .content .block.work .image.athelo {
+    background: url("images/athelo.png") no-repeat center center;
+    background-size: cover; }
 
 .content .block.work .description {
   font-family: Avenir;
   padding: 20px 30px 50px 30px;
   justify-self: stretch;
-  grid-area: description; }
+  grid-area: description;
+
+button {
+  cursor: pointer;
+}
+}
 
 .content .block.work .description h1 {
   font-size: 25pt;
@@ -334,6 +355,21 @@ body button:hover {
 
 .content .block.work button {
   margin: 10px 0; }
+
+  .work {
+    display: none !important;
+
+    &.current {
+
+      display: grid !important;
+      transition: .2s all;
+      animation-name: fadeIn;
+      opacity: 1;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: .5s;
+    }
+  }
 
 .invisi {
   display: grid;
@@ -350,8 +386,9 @@ body button:hover {
   height: 60px;
   width: 60px;
   opacity: 70%;
-  transition: .2s linear;
-  font-size: 12pt; }
+  transition: .1s ease-in-out;
+  font-size: 12pt;
+  cursor: pointer; }
   .invisi button:hover {
     opacity: 100%;
     background-size: 150% 150% !important;
@@ -366,7 +403,8 @@ body button:hover {
   opacity: 100%;
   transform: scale(1.2);
   box-shadow: 5px 0px 20px rgba(119, 90, 130, 0.3);
-  border: 5px solid #fff;
+  border: 2px solid #fff;
+  padding: 17px;
   background-size: 160% 160% !important; }
 
 .invisi .about {
@@ -387,6 +425,7 @@ body button:hover {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 .invisi .about h1 {
   font-size: 30px;
   line-height: 20px; }

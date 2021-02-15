@@ -10,6 +10,7 @@ $(document).ready(function() {
     });
 
 $(document).ready(function() {
+  $(".work:not(#casestudies)").addClass("current");
   var styles = ["a","b","c","d"];
   var index = 1;
   $(".work")
@@ -38,6 +39,19 @@ $(document).ready(function() {
 
     $("#" + tab_id).addClass("current");
   });
+
+  $(".worktab").click(function() {
+    var proj_id = $(this).attr("data-tab");
+
+    $(".worktab").removeClass("current");
+    $(".work").removeClass("current");
+
+
+    $(this).addClass("current");
+
+    $("." + proj_id).addClass("current");
+  });
+
 });
 
 $(document).ready(function() {
