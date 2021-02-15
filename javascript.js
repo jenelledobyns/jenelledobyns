@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
 
 $(document).ready(function() {
-  $(".work:not(#casestudies)").addClass("current");
+  $(".work:not(.casestudies)").addClass("current");
   var styles = ["a","b","c","d"];
   var index = 1;
   $(".work")
