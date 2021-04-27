@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
 
 $(document).ready(function() {
-  $(".work:not(.casestudies)").addClass("current");
+  $(".work:not(.tab3)").addClass("current");
   var styles = ["a","b","c","d"];
   var index = 1;
   $(".work")
@@ -44,7 +44,7 @@ $(document).ready(function() {
 
     if ($(this).hasClass("current")) {
       $(".worktab").removeClass("current");
-      $(".work:not(.miscellaneous)").addClass("current");
+      $(".work:not(.tab3)").addClass("current");
     }
 
     else {
