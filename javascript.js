@@ -44,7 +44,7 @@ $(document).ready(function() {
 
     if ($(this).hasClass("current")) {
       $(".worktab").removeClass("current");
-      $(".work:not(.casestudies)").addClass("current");
+      $(".work:not(.miscellaneous)").addClass("current");
     }
 
     else {
